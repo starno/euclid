@@ -1,0 +1,25 @@
+Machine Settings
+------------------
+
+build_diameter
+	
+build height
+
+---rod length
+
+---rod diameter
+
+---motor plate height
+
+bearing length
+
+pulley diameter
+
+platform diameter
+
+gap between arms
+
+arm diameter
+
+base to platform distance
+
