@@ -6,9 +6,23 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.3" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -91,6 +105,7 @@
 <wire x1="10" y1="10" x2="10" y2="0" width="0" layer="21"/>
 <text x="7" y="5" size="0.75" layer="1" font="vector" ratio="16" rot="R90" align="center">EXTRUDER
 HEATER A
+BY HOEKEN
 GPLv3</text>
 </plain>
 <libraries>
@@ -336,13 +351,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="1.03" y="8.16" size="0.0254" layer="27"/>
 </element>
 <element name="LED1" library="Hoektronics" package="0805-LED" value="" x="3" y="1.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="2.0745" y="0.838" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="1.603" y="2.916" size="0.4064" layer="27" rot="R270"/>
 </element>
-<element name="R1" library="Hoektronics" package="0805-RC" value="" x="3" y="5.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.1745" y="4.338" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="4.397" y="4.084" size="0.4064" layer="27" rot="R90"/>
-</element>
+<element name="R1" library="Hoektronics" package="0805-RC" value="1k" x="3" y="5.1" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="HEATER">
