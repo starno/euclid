@@ -1,4 +1,4 @@
-NiuB
+euclid
 =====
 
-Deltabot framework
+Low Cost, High Performance, Delta Robot framework
