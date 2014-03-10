@@ -7171,7 +7171,7 @@ DIN A4, landscape with location and doc. field</description>
 <text x="93.98" y="30.48" size="3.81" layer="94">Inverter</text>
 <text x="172.72" y="30.48" size="3.81" layer="94">Fan Driver</text>
 <text x="216.916" y="20.32" size="2.54" layer="94">Extruder Board</text>
-<text x="165.1" y="17.78" size="2.54" layer="94">Rev 1.2</text>
+<text x="165.1" y="17.78" size="2.54" layer="94">Rev 1.3</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="48.26" y="147.32"/>
@@ -7355,7 +7355,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="X10" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="HEATER" class="0">
+<net name="AUX_HEATER" class="0">
 <segment>
 <wire x1="236.22" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
 <label x="231.14" y="104.14" size="1.27" layer="95" rot="MR0" xref="yes"/>
@@ -7370,23 +7370,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="35.56" y1="55.88" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <label x="35.56" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="AUX_HEATER" class="0">
-<segment>
-<wire x1="187.96" y1="104.14" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
-<label x="193.04" y="104.14" size="1.27" layer="95" xref="yes"/>
-<pinref part="X5" gate="-1" pin="1"/>
-</segment>
-<segment>
-<wire x1="124.46" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
-<label x="116.84" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="X9" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<label x="35.56" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR_A+" class="0">
@@ -7508,7 +7491,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="X8" gate="-2" pin="1"/>
 </segment>
 </net>
-<net name="HEATER_GND" class="0">
+<net name="AUX_HEATER_GND" class="0">
 <segment>
 <wire x1="144.78" y1="106.68" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
 <label x="152.4" y="106.68" size="1.27" layer="95" xref="yes"/>
@@ -7525,7 +7508,7 @@ DIN A4, landscape with location and doc. field</description>
 <label x="68.58" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX_HEATER_GND" class="0">
+<net name="HEATER_GND" class="0">
 <segment>
 <wire x1="124.46" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
 <label x="116.84" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -7639,6 +7622,23 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="Q2" gate="G$1" pin="C"/>
 <wire x1="215.9" y1="53.34" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
 <label x="215.9" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="HEATER" class="0">
+<segment>
+<wire x1="124.46" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
+<label x="116.84" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="X9" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="187.96" y1="104.14" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
+<label x="193.04" y="104.14" size="1.27" layer="95" xref="yes"/>
+<pinref part="X5" gate="-1" pin="1"/>
+</segment>
+<segment>
+<wire x1="35.56" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<label x="35.56" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
