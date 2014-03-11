@@ -137,7 +137,6 @@
 </layers>
 <board>
 <plain>
-<hole x="-6" y="-8" drill="3.5"/>
 <text x="-10.0391" y="-22.71625" size="1.016" layer="21" font="vector">-</text>
 <text x="9.3284" y="-22.71625" size="1.016" layer="21" font="vector">+</text>
 <text x="9.3284" y="-26.52625" size="1.016" layer="21" font="vector">-</text>
@@ -167,7 +166,6 @@
 <text x="-6.38785" y="17.4625" size="0.8128" layer="22" rot="MR180" align="center">B-</text>
 <text x="-10.3566" y="17.4625" size="0.8128" layer="22" rot="MR180" align="center">CS1</text>
 <text x="-16.51" y="-7.0125" size="0.7112" layer="21" font="vector" rot="R180" align="top-right">MKX Controller</text>
-<hole x="6" y="-8" drill="3.5"/>
 <text x="10.46" y="-28.6825" size="0.6096" layer="21">MAIN THERMO</text>
 <text x="-10.16" y="-1.8775" size="0.6096" layer="21" font="vector" align="center">HEATER</text>
 <text x="10.16" y="-1.8775" size="0.6096" layer="21" font="vector" align="center">AUX_HEATER</text>
@@ -15949,6 +15947,8 @@ enjrolas</text>
 <rectangle x1="2.87" y1="-6.146" x2="2.898" y2="-6.118" layer="21"/>
 <rectangle x1="2.926" y1="-6.146" x2="2.954" y2="-6.118" layer="21"/>
 <rectangle x1="2.982" y1="-6.146" x2="3.01" y2="-6.118" layer="21"/>
+<hole x="-6" y="-8" drill="3.5"/>
+<hole x="6" y="-8" drill="3.5"/>
 </plain>
 <libraries>
 <library name="extruder_board_--_placement_2">
