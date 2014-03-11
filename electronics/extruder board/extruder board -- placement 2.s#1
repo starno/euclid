@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7113,7 +7113,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="X3" library="extruder_board_--_placement_2" deviceset="22-?-02" device="27-2021" value="Nozzle Fan">
+<part name="X3" library="extruder_board_--_placement_2" deviceset="22-?-02" device="27-2021" value="Nozzel Fan">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
