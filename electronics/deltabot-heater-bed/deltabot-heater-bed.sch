@@ -1310,130 +1310,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Passives">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SJ_2S">
-<description>Small solder jumper with big paste layer so it will short during reflow.</description>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.1524" layer="21"/>
-<wire x1="0.8" y1="1" x2="1.1" y2="0.75" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1" y1="0.75" x2="-0.8" y2="1" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1" y1="-0.75" x2="-0.8" y2="-1" width="0.1524" layer="21" curve="90.114706"/>
-<wire x1="0.8" y1="-1" x2="1.1" y2="-0.75" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.1" y1="-0.75" x2="1.1" y2="0.75" width="0.1524" layer="21"/>
-<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.1524" layer="21"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.1524" layer="21"/>
-<smd name="1" x="-0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
-<smd name="2" x="0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
-<text x="-0.9498" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9498" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.2192" y1="-1.143" x2="1.2192" y2="1.143" layer="31"/>
-</package>
-<package name="SJ_2S-TRACE">
-<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
-<wire x1="0.8255" y1="-1.016" x2="-0.8255" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="0.8255" y1="1.016" x2="1.0795" y2="0.762" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.0795" y1="0.762" x2="-0.8255" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.0795" y1="-0.762" x2="-0.8255" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.8255" y1="-1.016" x2="1.0795" y2="-0.762" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.8255" y1="1.016" x2="0.8255" y2="1.016" width="0.2032" layer="21"/>
-<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.2032" layer="1"/>
-<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="SJ_2S-NOTRACE">
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90.076445"/>
-<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90.03821"/>
-<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90.03821"/>
-<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90.03821"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.4009" y="0" dx="0.635" dy="1.27" layer="1" rot="R180" cream="no"/>
-<smd name="2" x="0.4127" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" layer="31"/>
-</package>
-<package name="SJ_2S-NO">
-<description>Small solder jumper with no paste layer so it will open after reflow.</description>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SJ">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SOLDERJUMPER" prefix="SJ">
-<description>&lt;b&gt;Solder Jumper&lt;/b&gt;
-Standard SMD solder jumper. Used to automate production. Two varients : Normally Open and Normally Closed are the same, but have different paste layers. NC will have a large amount of paste and should jumper during reflow.</description>
-<gates>
-<gate name="1" symbol="SJ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="NC" package="SJ_2S">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TRACE" package="SJ_2S-TRACE">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NC2" package="SJ_2S-NOTRACE">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NO" package="SJ_2S-NO">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ohw-logo">
 <packages>
 <package name="OSHW_FILLX1000_NOTEXT">
@@ -2164,9 +2040,9 @@ DIN A4, landscape with location and doc. field</description>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD"/>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD"/>
 <part name="S3" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD"/>
-<part name="R2" library="Hoektronics" deviceset="RESISTOR" device="1206"/>
-<part name="R3" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
-<part name="R4" library="Hoektronics" deviceset="RESISTOR" device="0603"/>
+<part name="R2" library="Hoektronics" deviceset="RESISTOR" device="1206" value="1206 Thermistor 100K"/>
+<part name="R3" library="Hoektronics" deviceset="RESISTOR" device="0805" value="0805 Thermistor 100K"/>
+<part name="R4" library="Hoektronics" deviceset="RESISTOR" device="0603" value="0603 Thermistor 100K"/>
 <part name="PGND" library="wirepad" deviceset="WIREPAD" device="SMD2,54-5,08"/>
 <part name="+12V" library="wirepad" deviceset="WIREPAD" device="SMD2,54-5,08"/>
 <part name="VCC" library="wirepad" deviceset="SMD2" device=""/>
@@ -2180,51 +2056,51 @@ DIN A4, landscape with location and doc. field</description>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="LED1" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R5" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R5" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED2" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R6" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R6" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED3" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R7" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R7" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED4" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R8" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R8" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED5" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R9" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R9" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED6" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R10" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R10" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED7" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R11" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R11" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED9" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R13" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R13" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED10" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R14" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R14" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED11" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R15" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R15" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED12" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R16" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R16" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED13" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R17" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R17" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED14" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R18" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R18" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED15" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R19" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R19" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED17" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R21" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R21" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED18" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R22" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R22" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED19" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R23" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R23" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED20" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R24" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R24" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED21" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R25" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R25" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED22" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R26" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
+<part name="R26" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LED23" library="Hoektronics" deviceset="LED" device="0805"/>
-<part name="R27" library="Hoektronics" deviceset="RESISTOR" device="0805"/>
-<part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC"/>
-<part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC"/>
+<part name="R27" library="Hoektronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="LOGO1" library="ohw-logo" deviceset="OSHW_LOGO_FILL" device="X1000-NT"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
+<part name="R12" library="Hoektronics" deviceset="RESISTOR" device="0805" value="0"/>
+<part name="R20" library="Hoektronics" deviceset="RESISTOR" device="0805" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -2245,19 +2121,19 @@ Calculations: http://goo.gl/0InPi</text>
 <instance part="S1" gate="S" x="167.64" y="81.28"/>
 <instance part="S2" gate="S" x="167.64" y="71.12"/>
 <instance part="S3" gate="S" x="167.64" y="60.96"/>
-<instance part="R2" gate="G$1" x="127" y="60.96"/>
-<instance part="R3" gate="G$1" x="127" y="68.58"/>
-<instance part="R4" gate="G$1" x="127" y="76.2"/>
+<instance part="R2" gate="G$1" x="114.3" y="60.96"/>
+<instance part="R3" gate="G$1" x="114.3" y="68.58"/>
+<instance part="R4" gate="G$1" x="114.3" y="76.2"/>
 <instance part="PGND" gate="G$1" x="48.26" y="116.84" rot="MR0"/>
 <instance part="+12V" gate="G$1" x="48.26" y="127" rot="MR0"/>
 <instance part="VCC" gate="1" x="83.82" y="71.12"/>
 <instance part="GND" gate="1" x="83.82" y="66.04"/>
-<instance part="TEMP" gate="1" x="142.24" y="68.58" rot="R180"/>
+<instance part="TEMP" gate="1" x="152.4" y="68.58" rot="R180"/>
 <instance part="ZERO" gate="1" x="193.04" y="58.42" rot="R180"/>
 <instance part="GND1" gate="1" x="162.56" y="50.8"/>
 <instance part="R1" gate="G$1" x="185.42" y="66.04" rot="R90"/>
 <instance part="SUPPLY1" gate="1" x="185.42" y="78.74"/>
-<instance part="GND2" gate="1" x="116.84" y="60.96"/>
+<instance part="GND2" gate="1" x="104.14" y="60.96"/>
 <instance part="GND3" gate="1" x="86.36" y="60.96"/>
 <instance part="SUPPLY2" gate="1" x="86.36" y="76.2"/>
 <instance part="LED1" gate="G$1" x="81.28" y="116.84"/>
@@ -2302,10 +2178,10 @@ Calculations: http://goo.gl/0InPi</text>
 <instance part="R26" gate="G$1" x="226.06" y="127" rot="R90"/>
 <instance part="LED23" gate="G$1" x="233.68" y="116.84"/>
 <instance part="R27" gate="G$1" x="233.68" y="127" rot="R90"/>
-<instance part="SJ1" gate="1" x="55.88" y="132.08"/>
-<instance part="SJ2" gate="1" x="55.88" y="111.76"/>
 <instance part="LOGO1" gate="G$1" x="58.42" y="93.98"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="R12" gate="G$1" x="55.88" y="132.08" rot="R180"/>
+<instance part="R20" gate="G$1" x="55.88" y="111.76" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2317,14 +2193,14 @@ Calculations: http://goo.gl/0InPi</text>
 <wire x1="30.48" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="PGND" gate="G$1" pin="P"/>
 <pinref part="+12V" gate="G$1" pin="P"/>
-<pinref part="SJ1" gate="1" pin="1"/>
 <wire x1="50.8" y1="132.08" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="132.08" x2="45.72" y2="127" width="0.1524" layer="91"/>
 <junction x="45.72" y="127"/>
-<pinref part="SJ2" gate="1" pin="1"/>
 <wire x1="50.8" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="111.76" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 <junction x="45.72" y="116.84"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2356,13 +2232,13 @@ Calculations: http://goo.gl/0InPi</text>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="76.2" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="76.2" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="68.58" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
-<junction x="121.92" y="68.58"/>
+<wire x1="109.22" y1="68.58" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
+<junction x="109.22" y="68.58"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="121.92" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="68.58" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="68.58" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -2407,11 +2283,11 @@ Calculations: http://goo.gl/0InPi</text>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="76.2" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="76.2" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="68.58" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
-<junction x="132.08" y="68.58"/>
-<wire x1="132.08" y1="68.58" x2="139.7" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="68.58" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
+<junction x="119.38" y="68.58"/>
+<wire x1="119.38" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="TEMP" gate="1" pin="P"/>
 </segment>
 </net>
@@ -2582,7 +2458,6 @@ Calculations: http://goo.gl/0InPi</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
 <junction x="88.9" y="132.08"/>
-<pinref part="SJ1" gate="1" pin="2"/>
 <wire x1="81.28" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 <junction x="81.28" y="132.08"/>
 <wire x1="127" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
@@ -2627,6 +2502,7 @@ Calculations: http://goo.gl/0InPi</text>
 <wire x1="180.34" y1="132.08" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
 <junction x="180.34" y="132.08"/>
 <junction x="187.96" y="132.08"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PGND" class="0">
@@ -2649,7 +2525,6 @@ Calculations: http://goo.gl/0InPi</text>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="88.9" y1="111.76" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
 <junction x="88.9" y="111.76"/>
-<pinref part="SJ2" gate="1" pin="2"/>
 <wire x1="81.28" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
 <junction x="81.28" y="111.76"/>
 <pinref part="LED15" gate="G$1" pin="C"/>
@@ -2694,6 +2569,7 @@ Calculations: http://goo.gl/0InPi</text>
 <wire x1="180.34" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 <junction x="180.34" y="111.76"/>
 <junction x="187.96" y="111.76"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
